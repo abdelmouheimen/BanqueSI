@@ -10,7 +10,7 @@ import javax.persistence.Entity;
 public class CompteEpargne extends Compte{
 	private double taux;
 
-	private CompteEpargne(double taux) {
+	public CompteEpargne(double taux) {
 		super();
 		this.taux = taux;
 	}
